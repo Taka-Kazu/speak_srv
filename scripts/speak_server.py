@@ -9,9 +9,9 @@ from speak_srv.srv import SpeakResponse as SpeakSrvResponse
 class Speaker:
   def __init__(self):
     self.cmd = "espeak"
-    self.voice = "en+f5"
-    self.pitch = "70"
-    self.speed = "175"
+    self.voice = "en+f4"
+    self.pitch = "80"
+    self.speed = "150"
     self.k = "20"
 
   def speak(self, sentence):
